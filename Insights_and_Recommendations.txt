@@ -1,0 +1,56 @@
+FUTURE INTERNS - DATA SCIENCE & ANALYTICS
+MARKETING FUNNEL & CONVERSION PERFORMANCE ANALYSIS
+
+1. PROJECT OVERVIEW
+
+This project analyzes a bank telemarketing campaign to understand which customer groups and campaign characteristics are associated with term-deposit subscriptions. The analysis uses Python with Pandas for data cleaning and analysis, and Power BI for interactive visualization.
+
+2. DATA SUMMARY
+
+Total customer records analyzed: 41,176
+Customers who subscribed: 4,639
+Customers who did not subscribe: 36,537
+Overall conversion rate: 11.27%
+Missing values after cleaning: 0
+Duplicate rows after cleaning: 0
+
+3. KEY INSIGHTS
+
+A. Overall campaign performance
+The campaign conversion rate was 11.27%. Most contacted customers did not subscribe, so there may be opportunities to improve targeting and campaign effectiveness.
+
+B. Job category
+Students had the highest observed conversion rate among job categories at 31.43%, followed by retired customers at 25.26%. Blue-collar customers had a rate of 6.90%. These rates should be considered alongside the size of each group.
+
+C. Contact method
+Cellular contacts had a conversion rate of 14.74%, compared with 5.23% for telephone contacts. This difference suggests cellular outreach is worth evaluating further, including its costs and reach.
+
+D. Previous campaign outcome
+Customers whose previous campaign outcome was successful had a conversion rate of 65.11%. This group may be useful to study when planning follow-up campaigns.
+
+E. Month
+March had the highest observed monthly conversion rate at 50.55%. Monthly rates can be affected by differences in the number and type of customers contacted, so the rate alone should not determine campaign timing.
+
+F. Number of contacts in the current campaign
+The conversion rate was 13.04% for customers contacted once and 5.49% for customers contacted six or more times. This pattern suggests that repeated contacts should be reviewed carefully; it does not prove that additional contacts cause lower conversion.
+
+
+4. RECOMMENDATIONS
+
+1. Compare cellular and telephone outreach using both conversion rates and campaign costs.
+2. Study higher-converting customer groups to understand whether their responses are consistent across campaigns.
+3. Review monthly performance alongside the number of customers contacted and other campaign conditions.
+4. Monitor repeated contact frequency and avoid unnecessary follow-up.
+5. Test changes on future campaigns and compare results before applying them broadly.
+6. Consider group sizes when interpreting high conversion rates, especially for small categories.
+
+
+5. LIMITATIONS
+
+These findings describe patterns in the available dataset and do not establish cause and effect. Some categories have relatively few records, so their conversion rates may be less reliable. The dataset records a term-deposit subscription outcome, rather than a complete website visitor-to-customer funnel.
+
+
+6. CONCLUSION
+
+The analysis summarized campaign outcomes and compared conversion rates across job categories, contact methods, months, previous campaign outcomes, and contact frequency. The Power BI dashboard presents key metrics and interactive comparisons to support further investigation.
+
